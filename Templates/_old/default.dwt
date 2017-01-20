@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Axis Medical</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<meta http-equiv="content-language" content="en-GB" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="imagetoolbar" content="no" />
+
+<link href="/styles/main.css" rel="stylesheet" type="text/css" />
+<link href="/styles/nav.css" rel="stylesheet" type="text/css" />
+<link href="/styles/print.css" rel="stylesheet" type="text/css" media="print" />
+<!--[if lte IE 7]>
+<link href="/styles/main_ie7ol.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link href="/styles/main_ie6ol.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="outer">
+	<div id="topbar">
+	  <a href="#content" id="skiplink">Skip to Main Content</a><img src="/images/logo.gif" alt="" id="logo" />
+	  <div id="contacttop">
+		Axis Medical Ltd<br />
+		Unit B, Pine House<br />
+		Ransom Wood <br />
+		Southwell Road<br />
+		Mansfield<br />
+		NG21 0HJ
+   </div>
+	</div>
+	<ul id="navbar">
+	  <li class="first"><a href="/default.htm">Home</a></li><li><a href="/products.htm">Products</a></li><li><a href="/personnel.htm">Personnel</a></li><li><a href="/Suppliers.htm">Suppliers</a></li><li><a href="/contact.htm">Contact Us</a></li><li><a href="mailto:info@axismedical.co.uk">Email Us</a></li>
+	</ul>
+	<div id="topimg">
+<!-- TemplateBeginEditable name="topimg" -->
+	  <img src="/images/default.jpg" alt="Home" />
+<!-- TemplateEndEditable -->
+	</div>
+	<div id="content">
+<!-- TemplateBeginEditable name="content" -->
+<!-- TemplateEndEditable -->
+	</div>
+	<div id="footer"><span class="contact">T:  (0870) 116 3571 | E: <a href="mailto:info@axismedical.co.uk">info@axismedical.co.uk</a></span> <span class="copyright">copyright Axis Medical Ltd 2008 | website designed by <a href="http://www.widagroup.com" onclick="window.open(this.href);return false;">widagroup</a></span></div>
+  </div>
+</div>
+</body>
+</html>

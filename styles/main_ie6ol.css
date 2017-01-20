@@ -1,0 +1,18 @@
+#navbar li li {
+	height: 1%;
+	background-color: #008551;
+	background-image: none;
+	filter: alpha(opacity=75);
+}
+#formsearch {
+	display: inline;
+}
+#content .zone2 {
+	display: inline;
+}
+#content .files li {
+	height: 16px;
+}
+#strapline {
+	display: inline;
+}

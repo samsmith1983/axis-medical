@@ -1,0 +1,33 @@
+#wrapper {
+	width: 606px;
+}
+#outer {
+	width: 594px;
+}
+/* Top Styles */
+#topbar {
+	border-bottom: 26px solid #a9ae88;
+}
+#formsearch {
+	display: none;
+}
+#navbar {
+	display: none;
+}
+#topimg {
+	display: none;
+}
+#content .zone1 {
+	width: 300px;
+	padding: 0 20px 0 10px;
+}
+#content .zone2 {
+	width: 220px;
+	margin: 0 20px 0 0;
+}
+#sideimg {
+	width: 220px;
+}
+#footer .contact {
+	margin: 0 0 6px;
+}

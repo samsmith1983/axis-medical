@@ -1,0 +1,29 @@
+#content .zone2 img {
+	display: block;
+	width: 310px;
+	margin: 0 0 4px;
+	padding:0;
+	border:1px solid #000000;
+}
+#content #purchasing {
+	position: relative;
+	clear: left;
+	float: left;
+	width: 312px;
+	padding: 0 25px 10px 45px;
+}
+#content #purchasing #bb_buybuttonform {
+	float: right;
+}
+#content #purchasing img {
+	float: left;
+	width: auto;
+	border: 0;
+}
+#content .item .bullet{
+	padding:0 0 0 10px;
+	background: #ffffff url('/images/pbullet.png') no-repeat scroll 0px 8px;
+	color: #ae2619;
+	font-size: 60%;
+}
+

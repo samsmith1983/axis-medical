@@ -1,0 +1,15 @@
+#navbar li li img {
+	position: absolute;
+	top: 0.7em;
+	left: 170px;
+}
+#breadcrumb li {
+	padding: 0 0 0 24px;
+	background: #ffffff url(/images/bulletBreadcrumb.gif) no-repeat 8px 8px;
+	color: #008551;
+	white-space: nowrap;
+}
+#breadcrumb li.first {
+	padding: 0;
+	background-image: none;
+}

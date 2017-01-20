@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 6px;
+	background-color: #FFFFFF;
+	color: #777777;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+}
+img {
+	display: block;
+	margin: 0 auto 6px;
+}
+#pagenav {
+	clear: left;
+	float: left;
+	width: 100%;
+	background-color: #eeeeee;
+	color: #cccccc;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+#pagenav td {
+	width: 33%;
+	padding: 3px;
+}
+#pagenav td.pages {
+	background-color: #eeeeee;
+	color: #000000;
+	text-align: center;
+}
+#pagenav td.next {
+	text-align: right;
+}
+#pagenav a {
+	background-color: #eeeeee;
+	color: #787353;
+}
+#pagenav a:hover {
+	background-color: #eeeeee;
+	color: #1d2d27;
+}
+#pagenav a:focus {
+	background-color: #eeeeee;
+	color: #1d2d27;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Information / DVD Request Form | Axis Medical</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+<meta name="robots" content="noindex,nofollow" />
+
+<link rel="stylesheet" href="styles/enqform.css" type="text/css" />
+<!--[if lte IE 7]>
+<link href="styles/enqform_ie7ol.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link href="styles/enqform_ie6ol.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript" src="/script/uni_form.js"></script>
+</head>
+
+<body onload="window.focus();">
+<script type="text/javascript">
+setvalidation(
+['Name','Address','Postcode','Email','How did you hear'],
+[',1,',',1,',',1,','email,1,',',1,'],
+['Name:','Address:','Postcode:','Email:','How did you hear about the Ear Popper?']);
+</script>
+<h1>Information / DVD Enquiry Form</h1>
+<form id="formenquiry" method="post" action="/asp/formmail.asp" onsubmit="return checkform(this);">
+  <p>Please fill in the following form and we will send you your information and DVD as soon as possible.</p>
+  <fieldset>
+	<table cellspacing="0">
+	  <tr>
+		<th><label for="name">Name:</label></th>
+		<td><input type="text" name="Name" id="name" /></td>
+	  </tr>
+	  <tr>
+		<th><label for="address">Address:</label></th>
+		<td><textarea name="Address" id="address" rows="5" cols="14"></textarea></td>
+	  </tr>
+	  <tr>
+		<th><label for="postcode">Postcode:</label></th>
+		<td><input type="text" name="Postcode" id="postcode" /></td>
+	  </tr>
+	  <tr>
+		<th><label for="email">Email:</label></th>
+		<td><input type="text" name="Email" id="email" /></td>
+	  </tr>
+	  <tr>
+		<th><label for="howdidyouhear">How did you hear about the Ear Popper?</label></th>
+		<td><textarea name="How did you hear" id="howdidyouhear" rows="5" cols="14"></textarea></td>
+	  </tr>
+	  <tr>
+		<th><label for="Enquiry">Enquiry:</label></th>
+		<td><select name="enquiry">
+				<option value="Personal">Personal</option>
+				<option value="Professional">Professional</option>
+			</select>
+		</td>
+	  </tr>
+	</table>
+  </fieldset>
+  <table cellspacing="0" class="buttons">
+    <tr>
+	  <td class="right"><input type="hidden" name="recipient" value="info@axismedical.co.uk" />
+		<input type="hidden" name="redirect" value="/thankyou.htm" />
+		<input type="hidden" name="subject" value="Enquiry from website" />
+		<input type="reset" value="Reset" class="reset" /></td>
+	  <td><input type="submit" value="Submit" class="submit" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
