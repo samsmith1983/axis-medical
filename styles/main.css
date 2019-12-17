@@ -111,6 +111,11 @@ input,select,textarea {
 	font-size: 80%;
 	line-height: 2em;
 }
+#content h5 {
+	color: #ff0000;
+	font-size: 150%;
+	line-height: 1.6em;
+}
 h2 {
 	font-size:70%;
 }
@@ -263,10 +268,8 @@ h2 {
 	color: #CB1E1E;
 }
 #content #zone2panel h5 {
-	background-color: #dbe2d0;
-	color: #008551;
-	margin: 0 0 0.6em;
-	font-size: 85%;
+	color: #ff0000;
+	font-size: 150%;
 	line-height: 1.6em;
 }
 #content #zone2panel h6 {
